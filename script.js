@@ -4,14 +4,14 @@ const msg = document.getElementById("msg");
 
 // Move NO button randomly
 noBtn.addEventListener("mouseover", () => {
-  const x = Math.random() * (window.innerWidth - 100);
-  const y = Math.random() * (window.innerHeight - 50);
+  const x = Math.random() * (window.innerWidth - 120);
+  const y = Math.random() * (window.innerHeight - 60);
 
   noBtn.style.left = x + "px";
   noBtn.style.top = y + "px";
 });
 
-// Yes message
+// Yes button action
 yesBtn.addEventListener("click", () => {
   msg.innerText = "Yayyy! Best Valentine friend ever 💖✨";
 });
