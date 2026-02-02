@@ -1,27 +1,45 @@
-body {
+/* Full screen fix */
+html, body {
   margin: 0;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+/* Background image */
+body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: Arial;
   text-align: center;
 
-  /* Background photo */
-  background: url("photo.jpg") no-repeat center center/cover;
+  background-color: #111;
+  background-image: url("IMG_7690.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-/* Glass effect box */
+/* Hide YouTube iframe (audio only) */
+#yt-music {
+  position: fixed;
+  width: 0;
+  height: 0;
+  border: none;
+}
+
+/* Glass effect card */
 .container {
   background: rgba(0, 0, 0, 0.55);
   padding: 35px;
   border-radius: 20px;
   color: white;
+  max-width: 90%;
 }
 
 h1 {
   font-size: 26px;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 
 h2 {
