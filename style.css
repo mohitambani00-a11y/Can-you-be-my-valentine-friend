@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, pink, lightcoral);
+  font-family: Arial;
+  text-align: center;
+}
+
+button {
+  padding: 12px 25px;
+  font-size: 18px;
+  margin: 10px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+#yes {
+  background: green;
+  color: white;
+}
+
+#no {
+  background: red;
+  color: white;
+  position: absolute;
+}
+
+#msg {
+  margin-top: 20px;
+  font-size: 22px;
+  color: white;
+}
